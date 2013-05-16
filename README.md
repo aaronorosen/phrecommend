@@ -1,4 +1,4 @@
-# Boilerpipe/JPype based word/phrase count article recommender
+### Boilerpipe/JPype based word/phrase count article recommender
 
 *Dependencies*
 * Java
@@ -7,5 +7,5 @@
 
 *Installation*
 
-make py-env
-. env.sh 
+1. make py-env
+2. source env.sh 
