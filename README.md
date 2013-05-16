@@ -1,15 +1,11 @@
-Boilerpipe/JPype based word/phrase count article recommender
+# Boilerpipe/JPype based word/phrase count article recommender
 
-## Dependencies
+*Dependencies*
+* Java
+* GNU make
+* virtualenv (https://pypi.python.org/pypi/virtualenv)
 
-Java
-GNU make
-virtualenv (https://pypi.python.org/pypi/virtualenv)
+*Installation*
 
-## Installation
-
-#Install the python dependencies
 make py-env
-
-#Activate the python environment
 . env.sh 
