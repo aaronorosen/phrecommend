@@ -1,0 +1,3 @@
+[submodule "lib/python-boilerpipe"]
+	path = lib/python-boilerpipe
+	url = git://github.com/misja/python-boilerpipe.git
