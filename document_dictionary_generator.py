@@ -6,12 +6,9 @@ with open(sys.argv[1], 'r') as file:
   fileText = file.read()
 
 extractor = Extractor(extractor='ArticleExtractor', html=fileText)
-#extractor = Extractor(url=sys.argv[1])
 text = extractor.getText().encode('utf-8').lower()
 pattern = re.compile('[^0-9a-z\s\.]+')
-#print text
 tokens = pattern.sub(' ', text).split()
-#print tokens
 ngrams = {}
 
 maxLength = int(sys.argv[2])
